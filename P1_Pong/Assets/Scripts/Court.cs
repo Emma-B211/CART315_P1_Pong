@@ -22,6 +22,6 @@ public class Court : MonoBehaviour
         ball.transform.position = TeleportPoint.position;
 
         BaseEventData eventData = new BaseEventData(EventSystem.current);
-       
+        courtTrigger.Invoke(eventData);
     }
 }
