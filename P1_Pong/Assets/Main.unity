@@ -448,6 +448,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 793522838}
     - target: {fileID: 5529284837106475044, guid: 77d322fba28899d49a5dbcc9acc58481, type: 3}
+      propertyPath: TeleportPoint
+      value: 
+      objectReference: {fileID: 823314122}
+    - target: {fileID: 5529284837106475044, guid: 77d322fba28899d49a5dbcc9acc58481, type: 3}
       propertyPath: courtTrigger.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1194,6 +1198,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799475727}
   m_CullTransparentMesh: 1
+--- !u!1 &823314121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 823314122}
+  m_Layer: 0
+  m_Name: TeleportPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &823314122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823314121}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &918708738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +2464,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 793522838}
     - target: {fileID: 5529284837106475044, guid: 77d322fba28899d49a5dbcc9acc58481, type: 3}
+      propertyPath: TeleportPoint
+      value: 
+      objectReference: {fileID: 823314122}
+    - target: {fileID: 5529284837106475044, guid: 77d322fba28899d49a5dbcc9acc58481, type: 3}
       propertyPath: courtTrigger.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2507,13 +2546,14 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 1233802265}
   - {fileID: 1024126220}
   - {fileID: 1962822983}
   - {fileID: 2198652646367565185}
   - {fileID: 3518406120990047594}
   - {fileID: 6822471379476878375}
+  - {fileID: 823314122}
   - {fileID: 206556067}
+  - {fileID: 1233802265}
   - {fileID: 1903691474}
   - {fileID: 17541448}
   - {fileID: 793522839}
